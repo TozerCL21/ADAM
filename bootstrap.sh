@@ -1,8 +1,7 @@
 #!/bin/bash
 #Need root to execute
-zenity --info --text "Root Privilages needed to execute"
-if $info && true; then
+if test -a 1000 && true; then
 ;
 else
-echo "Please login as root."
-fi
+echo Please login as root.
+
